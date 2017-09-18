@@ -6,8 +6,8 @@ Public Class Global_asax
 
     Sub Application_Start(ByVal sender As Object, ByVal e As EventArgs)
         ' 在應用程式啟動時引發
-        Dim lic As License = New License()
-        lic.SetLicense("Aspose.Total.lic")
+        'Dim lic As License = New License()
+        'lic.SetLicense("Aspose.Total.lic")
     End Sub
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)
