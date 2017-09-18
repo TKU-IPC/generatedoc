@@ -103,6 +103,8 @@
   <ItemGroup>
     <Content Include="generate_doc.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="libs\Aspose.Words.dll" />
+    <Content Include="libs\Aspose.Words.xml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -165,6 +167,7 @@
   <ItemGroup>
     <Folder Include="libs\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
